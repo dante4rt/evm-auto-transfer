@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Berachain bArtio",
+    "rpcUrl": "https://bartio.rpc.berachain.com",
+    "chainId": "80084",
+    "symbol": "BERA",
+    "explorer": "https://bartio.beratrail.io"
+  },
+  {
+    "name": "Plume Testnet",
+    "rpcUrl": "https://testnet-rpc.plumenetwork.xyz/http",
+    "chainId": "161221135",
+    "symbol": "ETH",
+    "explorer": "https://testnet-explorer.plumenetwork.xyz"
+  },
+  {
+    "name": "Unit Zero Testnet",
+    "rpcUrl": "https://rpc-testnet.unit0.dev",
+    "chainId": "88817",
+    "symbol": "UNIT0",
+    "explorer": "https://explorer-testnet.unit0.dev"
+  },
+  {
+    "name": "StratoVM Sepolia Testnet",
+    "rpcUrl": "https://rpc.stratovm.io",
+    "chainId": "93747",
+    "symbol": "SVM",
+    "explorer": "https://explorer.stratovm.io"
+  },
+  {
+    "name": "Story Testnet",
+    "rpcUrl": "https://testnet.storyrpc.io",
+    "chainId": "1513",
+    "symbol": "IP",
+    "explorer": "https://testnet.storyscan.xyz"
+  }
+]
