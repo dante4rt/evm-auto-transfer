@@ -44,6 +44,10 @@ const main = async () => {
 
   const privateKeys = JSON.parse(fs.readFileSync('privateKeys.json'));
 
+  const transactionCount = readlineSync.questionInt(
+    'Enter the number of transactions you want to send for each address: '
+  );
+
   for (const privateKey of privateKeys) {
     const wallet = new ethers.Wallet(privateKey, provider);
     const senderAddress = wallet.address;
@@ -64,7 +68,7 @@ const main = async () => {
       continue;
     }
 
-    if (senderBalance < ethers.parseUnits('0.01', 'ether')) {
+    if (senderBalance < ethers.parseUnits('0.001', 'ether')) {
       console.log(
         colors.red('❌ Insufficient or zero balance. Skipping to next address.')
       );
@@ -102,10 +106,6 @@ const main = async () => {
     };
 
     printSenderBalance();
-
-    const transactionCount = readlineSync.questionInt(
-      `Enter the number of transactions you want to send for address ${senderAddress}: `
-    );
 
     for (let i = 1; i <= transactionCount; i++) {
       const receiverWallet = ethers.Wallet.createRandom();
@@ -202,8 +202,6 @@ const main = async () => {
     console.log(
       colors.green(`✅ Finished transactions for address: ${senderAddress}`)
     );
-
-    break;
   }
 
   console.log(colors.green('All transactions completed.'));
