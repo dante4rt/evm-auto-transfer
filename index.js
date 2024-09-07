@@ -121,10 +121,21 @@ const main = async () => {
         'ether'
       );
 
-      const gasPrice = ethers.parseUnits(
-        (Math.random() * (0.0015 - 0.0009) + 0.0009).toFixed(9).toString(),
-        'gwei'
-      );
+      /* --------------------------- TEMPORARY DISABLED --------------------------- */
+      // const gasPrice = ethers.parseUnits(
+      //   (Math.random() * (0.0015 - 0.0009) + 0.0009).toFixed(9).toString(),
+      //   'gwei'
+      // );
+
+      let gasPrice;
+      try {
+        gasPrice = (await provider.getFeeData()).gasPrice;
+      } catch (error) {
+        console.log(
+          colors.red('❌ Failed to fetch gas price from the network.')
+        );
+        continue;
+      }
 
       const transaction = {
         to: receiverAddress,

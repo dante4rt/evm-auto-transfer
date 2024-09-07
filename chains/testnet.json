@@ -1,5 +1,12 @@
 [
   {
+    "name": "Sonic Fantom Testnet",
+    "rpcUrl": "https://rpc.testnet.soniclabs.com",
+    "chainId": "64165",
+    "symbol": "S",
+    "explorer": "https://testnet.soniclabs.com"
+  },
+  {
     "name": "Berachain bArtio",
     "rpcUrl": "https://bartio.rpc.berachain.com",
     "chainId": "80084",
