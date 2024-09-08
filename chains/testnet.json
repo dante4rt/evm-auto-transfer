@@ -1,5 +1,12 @@
 [
   {
+    "name": "Movement MEVM",
+    "rpcUrl": "https://mevm.devnet.imola.movementlabs.xyz",
+    "chainId": "30732",
+    "symbol": "MOVE",
+    "explorer": "https://explorer.devnet.imola.movementlabs.xyz"
+  },
+  {
     "name": "Sonic Fantom Testnet",
     "rpcUrl": "https://rpc.testnet.soniclabs.com",
     "chainId": "64165",
