@@ -6,6 +6,7 @@ Welcome to the `evm-auto-transfer` repository! This script allows you to automat
 
 - 📡 Dynamic RPC URL, chain ID, and explorer integration from JSON files.
 - 🔄 Automated transaction processing for multiple addresses.
+- 🎯 Targeted transfers to specified addresses from `addresses.json`.
 - 🚀 Easily configurable for various networks (testnets and mainnets).
 - 🔒 Secure handling of private keys.
 
@@ -79,17 +80,33 @@ Ensure you have the following installed:
 
      **⚠️ Important**: Keep this file secure and avoid exposing your private keys!
 
+3. **Create Target Addresses File**:
+
+   - Create an `addresses.json` file in the root directory. This file should contain an array of target addresses you want to transfer funds to:
+
+     ```json
+     [
+         "0xTARGET_ADDRESS_1",
+         "0xTARGET_ADDRESS_2"
+     ]
+     ```
+
 ### Usage
 
-1. Run the script:
+1. Run the script for random address generation and transactions:
 
    ```bash
    npm start
    ```
 
-2. Select your network environment (Testnet/Mainnet) and choose the chain from the provided list using the arrow keys.
+2. To use the targeted address feature, run:
 
-3. Define the number of transactions you want to process, and let the script handle the rest!
+   ```bash
+   npm run target
+   ```
+
+   - You will be prompted to select your network environment (Testnet/Mainnet) and choose the chain from the provided list using the arrow keys.
+   - Define the number of transactions you want to process and let the script handle the rest!
 
 ### Contribution
 
@@ -106,7 +123,3 @@ If you would like to support the development of this project, you can make a don
 ### License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-⭐️ If you find this project helpful, feel free to give it a star!
