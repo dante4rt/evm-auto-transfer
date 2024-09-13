@@ -47,5 +47,12 @@
     "chainId": "1513",
     "symbol": "IP",
     "explorer": "https://testnet.storyscan.xyz"
+  },
+  {
+    "name": "WeaveVM Testnet",
+    "rpcUrl": "https://testnet.wvm.dev",
+    "chainId": "9496",
+    "symbol": "tWVM",
+    "explorer": "https://explorer.wvm.dev"
   }
 ]

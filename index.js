@@ -90,7 +90,7 @@ const main = async () => {
               )} ${selectedChain.symbol}`
             )
           );
-          if (senderBalance < ethers.parseUnits('0.01', 'ether')) {
+          if (senderBalance < ethers.parseUnits('0.001', 'ether')) {
             console.log(
               colors.red('❌ Insufficient balance for transactions.')
             );
