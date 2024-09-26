@@ -1,5 +1,12 @@
 [
   {
+    "name": "Open Campus",
+    "rpcUrl": "https://rpc.open-campus-codex.gelato.digital",
+    "chainId": "656476",
+    "symbol": "EDU",
+    "explorer": "https://opencampus-codex.blockscout.com"
+  },
+  {
     "name": "Movement MEVM",
     "rpcUrl": "https://mevm.devnet.imola.movementlabs.xyz",
     "chainId": "30732",
