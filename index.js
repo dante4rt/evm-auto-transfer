@@ -68,7 +68,7 @@ const main = async () => {
       continue;
     }
 
-    if (senderBalance < ethers.parseUnits('0.001', 'ether')) {
+    if (senderBalance < ethers.parseUnits('0.0001', 'ether')) {
       console.log(
         colors.red('❌ Insufficient or zero balance. Skipping to next address.')
       );
@@ -90,7 +90,7 @@ const main = async () => {
               )} ${selectedChain.symbol}`
             )
           );
-          if (senderBalance < ethers.parseUnits('0.001', 'ether')) {
+          if (senderBalance < ethers.parseUnits('0.0001', 'ether')) {
             console.log(
               colors.red('❌ Insufficient balance for transactions.')
             );

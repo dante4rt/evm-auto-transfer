@@ -1,5 +1,12 @@
 [
   {
+    "name": "Citrea Testnet",
+    "rpcUrl": "https://rpc.testnet.citrea.xyz",
+    "chainId": "5115",
+    "symbol": "cBTC",
+    "explorer": "https://explorer.testnet.citrea.xyz"
+  },
+  {
     "name": "Open Campus",
     "rpcUrl": "https://rpc.open-campus-codex.gelato.digital",
     "chainId": "656476",
