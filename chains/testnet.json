@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tabi Testnetv2",
+    "rpcUrl": "https://rpc.testnetv2.tabichain.com",
+    "chainId": "9788",
+    "symbol": "TABI",
+    "explorer": "https://testnetv2.tabiscan.com"
+  },
+  {
     "name": "Citrea Testnet",
     "rpcUrl": "https://rpc.testnet.citrea.xyz",
     "chainId": "5115",
