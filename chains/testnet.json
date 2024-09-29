@@ -1,5 +1,12 @@
 [
   {
+    "name": "PROM Testnet",
+    "rpcUrl": "https://testnet-rpc.prom.io",
+    "chainId": "584548796",
+    "symbol": "T-PROM",
+    "explorer": "https://testnet.promscan.io"
+  },
+  {
     "name": "Tabi Testnetv2",
     "rpcUrl": "https://rpc.testnetv2.tabichain.com",
     "chainId": "9788",
