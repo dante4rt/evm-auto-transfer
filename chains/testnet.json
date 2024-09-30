@@ -1,5 +1,12 @@
 [
   {
+    "name": "Lumia Testnet",
+    "rpcUrl": "https://lumia-testnet-rpc.eu-north-2.gateway.fm",
+    "chainId": "1952959480",
+    "symbol": "LUMIA",
+    "explorer": "https://lumia-testnet-blockscout.eu-north-2.gateway.fm"
+  },
+  {
     "name": "Testnet Onefinity",
     "rpcUrl": "https://testnet-rpc.onefinity.network",
     "chainId": "999987",
