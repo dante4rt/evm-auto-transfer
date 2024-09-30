@@ -1,5 +1,12 @@
 [
   {
+    "name": "Testnet Onefinity",
+    "rpcUrl": "https://testnet-rpc.onefinity.network",
+    "chainId": "999987",
+    "symbol": "ONE",
+    "explorer": "https://testnet-explorer.onefinity.network"
+  },
+  {
     "name": "PROM Testnet",
     "rpcUrl": "https://testnet-rpc.prom.io",
     "chainId": "584548796",
