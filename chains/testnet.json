@@ -1,5 +1,12 @@
 [
   {
+    "name": "Humanity Protocol Testnet",
+    "rpcUrl": "https://rpc.testnet.humanity.org",
+    "chainId": "1942999413",
+    "symbol": "tHP",
+    "explorer": "https://explorer.testnet.humanity.org"
+  },
+  {
     "name": "Lumia Testnet",
     "rpcUrl": "https://lumia-testnet-rpc.eu-north-2.gateway.fm",
     "chainId": "1952959480",
