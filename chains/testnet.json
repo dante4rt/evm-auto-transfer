@@ -1,5 +1,12 @@
 [
   {
+    "name": "Unichain Sepolia Testnet",
+    "rpcUrl": "https://autumn-cosmological-scion.unichain-sepolia.quiknode.pro/c568806873f2a9edb9fcdea8aef0569ff729eb25",
+    "chainId": "1301",
+    "symbol": "ETH",
+    "explorer": "https://testnet.brid.gg/sepolia"
+  },
+  {
     "name": "Humanity Protocol Testnet",
     "rpcUrl": "https://rpc.testnet.humanity.org",
     "chainId": "1942999413",
