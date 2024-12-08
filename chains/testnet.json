@@ -1,5 +1,12 @@
 [
   {
+    "name": "Cypher Testnet",
+    "rpcUrl": "https://testnet-rpc.cypher.z1labs.ai",
+    "chainId": "10111",
+    "symbol": "DEAI",
+    "explorer": "https://testnet.cypherscan.ai"
+  },
+  {
     "name": "Unichain Sepolia Testnet",
     "rpcUrl": "https://autumn-cosmological-scion.unichain-sepolia.quiknode.pro/c568806873f2a9edb9fcdea8aef0569ff729eb25",
     "chainId": "1301",
