@@ -1,5 +1,12 @@
 [
   {
+    "name": "Reddio Development Network",
+    "rpcUrl": "https://reddio-dev.reddio.com",
+    "chainId": "50341",
+    "symbol": "RED",
+    "explorer": "https://reddio-devnet.l2scan.co"
+  },
+  {
     "name": "Tea Assam Testnet",
     "rpcUrl": "https://assam-rpc.tea.xyz",
     "chainId": "93384",
