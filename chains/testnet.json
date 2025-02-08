@@ -1,5 +1,12 @@
 [
   {
+    "name": "Rome Test Network",
+    "rpcUrl": "https://rome.testnet.romeprotocol.xyz",
+    "chainId": "200018",
+    "symbol": "ROME",
+    "explorer": "https://rome.testnet.romeprotocol.xyz:1000"
+  },
+  {
     "name": "Reddio Development Network",
     "rpcUrl": "https://reddio-dev.reddio.com",
     "chainId": "50341",
