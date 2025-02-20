@@ -1,5 +1,12 @@
 [
   {
+    "name": "Monad Testnet",
+    "rpcUrl": "https://testnet-rpc.monad.xyz",
+    "chainId": "10143",
+    "symbol": "MON",
+    "explorer": "https://testnet.monadexplorer.com"
+  },
+  {
     "name": "Rome Test Network",
     "rpcUrl": "https://rome.testnet.romeprotocol.xyz",
     "chainId": "200018",
