@@ -1,6 +1,6 @@
-const colors = require('colors');
-const fs = require('fs');
-const readlineSync = require('readline-sync');
+const colors = require("colors");
+const fs = require("fs");
+const readlineSync = require("readline-sync");
 
 function loadChains(networkType) {
   const filePath = `./chains/${networkType}.json`;
@@ -10,7 +10,7 @@ function loadChains(networkType) {
     process.exit(1);
   }
 
-  const chains = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const chains = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   if (chains.length === 0) {
     console.log(colors.red(`🚨 Error: No chains found in ${filePath}.`));
@@ -21,36 +21,30 @@ function loadChains(networkType) {
 }
 
 function selectNetworkType() {
-  const networkTypes = ['Testnet 🌐', 'Mainnet 🔗'];
+  const networkTypes = ["Testnet 🌐", "Mainnet 🔗"];
 
-  const selectedIndex = readlineSync.keyInSelect(
-    networkTypes,
-    'Select the network type:'
-  );
+  const selectedIndex = readlineSync.keyInSelect(networkTypes, "Select the network type:");
 
   if (selectedIndex === -1) {
-    console.log(colors.red('🚨 No network type selected. Exiting...'));
+    console.log(colors.red("🚨 No network type selected. Exiting..."));
     process.exit(1);
   }
 
-  return selectedIndex === 0 ? 'testnet' : 'mainnet';
+  return selectedIndex === 0 ? "testnet" : "mainnet";
 }
 
 function selectChain(chains) {
-  console.log('');
-  console.log(colors.cyan('🌐 Select a blockchain network:'));
+  console.log("");
+  console.log(colors.cyan("🌐 Select a blockchain network:"));
 
   const chainNames = chains.map((chain) => {
     return `${chain.name}`;
   });
 
-  const selectedIndex = readlineSync.keyInSelect(
-    chainNames,
-    'Which chain do you want to use?'
-  );
+  const selectedIndex = readlineSync.keyInSelect(chainNames, "Which chain do you want to use?");
 
   if (selectedIndex === -1) {
-    console.log(colors.red('🚨 No chain selected. Exiting...'));
+    console.log(colors.red("🚨 No chain selected. Exiting..."));
     process.exit(1);
   }
 

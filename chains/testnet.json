@@ -1,5 +1,12 @@
 [
   {
+    "name": "NERO Test Network",
+    "rpcUrl": "https://rpc-testnet.nerochain.io",
+    "chainId": "689",
+    "symbol": "NERO",
+    "explorer": "https://testnet.neroscan.io"
+  },
+  {
     "name": "Monad Testnet",
     "rpcUrl": "https://testnet-rpc.monad.xyz",
     "chainId": "10143",
