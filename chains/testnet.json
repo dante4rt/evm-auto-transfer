@@ -1,5 +1,12 @@
 [
   {
+    "name": "O3Layer Testnet",
+    "rpcUrl": "https://testnet.rpc.o3layer.com",
+    "chainId": "53574309564",
+    "symbol": "O3",
+    "explorer": "https://testnet.explorer.o3layer.com"
+  },
+  {
     "name": "NERO Test Network",
     "rpcUrl": "https://rpc-testnet.nerochain.io",
     "chainId": "689",
