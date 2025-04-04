@@ -108,7 +108,7 @@ const main = async () => {
 
         const transaction = {
           to: receiverAddress,
-          value: ethers.parseUnits("0.1", "ether"),
+          value: amountToSend,
           gasLimit: 21000,
           gasPrice: gasPrice,
           chainId: parseInt(selectedChain.chainId),
