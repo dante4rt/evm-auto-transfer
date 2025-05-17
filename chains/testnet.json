@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pharos Testnet",
+    "rpcUrl": "https://testnet.dplabs-internal.com",
+    "chainId": "688688",
+    "symbol": "PHRS",
+    "explorer": "https://testnet.pharosscan.xyz"
+  },
+  {
     "name": "Tea Sepolia",
     "rpcUrl": "https://tea-sepolia.g.alchemy.com/public",
     "chainId": "10218",
